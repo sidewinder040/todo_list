@@ -1,4 +1,5 @@
-import ItemClass as item
-item1 = item.todo_item("Test")
+from ItemClass import todo_item
+
+item1 = todo_item("Test", 3)
 
 item1.Print_Item()
