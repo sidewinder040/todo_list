@@ -14,7 +14,7 @@ class todo_item(object):
 
     """Print To Do List Item"""
     def Print_Item(self):
-        print "To Do Item:"
+        print "\nTo Do Item: "
         print "Description: %s" % self.description
         print "Priority: %d" % self.priority
 
