@@ -10,7 +10,7 @@ items.append(item1)
 item2 = todoItem("Test 2", 2)
 items.append(item2)
 
-print "---------------------"
-print "Items in list..."
-item1.print_tem()
-item2.print_tem()
+print("---------------------")
+print("Items in list...")
+item1.print_item()
+item2.print_item()
