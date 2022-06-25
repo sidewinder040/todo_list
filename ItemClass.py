@@ -4,18 +4,18 @@ class todo_item(object):
         #super(to-do_item, self).__init__()
         # Check parameters...
         if len(description) == 0:
-            print "Error: Description string empty"
+            print ("Error: Description string empty")
             return
         
         self.description = description
-        print "Adding item: '%s'" % description
+        print ("Adding item: '%s'" % description)
         self.priority = priority
-        print "with a priority of %d" % priority
+        print ("with a priority of %d" % priority)
 
     """Print To Do List Item"""
     def Print_Item(self):
-        print "To Do Item:"
-        print "Description: %s" % self.description
-        print "Priority: %d" % self.priority
+        print ("To Do Item:")
+        print ("Description: %s" % self.description)
+        print ("Priority: %d" % self.priority)
 
     
